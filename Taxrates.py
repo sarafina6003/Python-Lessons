@@ -1,7 +1,7 @@
 salary = input("Enter your salary :")
 
 if salary<=11180:
-    tax=0.1*salary
+    tax=0.1 *salary
     netpay = salary -tax
 elif salary>=11181 and salary>=21714:
     tax = 0.15 * salary
